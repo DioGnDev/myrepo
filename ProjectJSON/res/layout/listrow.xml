@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/list_selector"
+    android:padding="5dip">
+     
+   <!-- Title Of Song-->
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nim"
+        android:textColor="#040404"
+        android:typeface="sans" 
+        android:textSize="15dip"
+        android:textStyle="bold"/>
+
+	<!-- Artist Name -->
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nim"
+        android:textColor="#343434"
+        android:textSize="15dip"
+        android:layout_marginTop="1dip"
+        android:text="Just gona stand there and ..." />
+
+	<!-- Rightend Duration -->
+
+    <TextView
+        android:id="@+id/prodi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nama"
+        android:layout_below="@+id/nama"
+        android:gravity="right"
+        android:text="prodi"
+        android:textColor="#10bcc9"
+        android:textSize="15dip"
+        android:layout_marginTop="1dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fakultas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/prodi"
+        android:layout_below="@+id/prodi"
+        android:text="fakultas"
+        android:textColor="#10bcc9"
+        android:textSize="15dip"
+        android:layout_marginTop="1dip"
+        android:textStyle="bold" />
+
+</RelativeLayout>
