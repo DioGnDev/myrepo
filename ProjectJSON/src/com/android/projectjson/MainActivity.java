@@ -33,6 +33,8 @@ public class MainActivity extends Activity {
 	private String[] navMenuTitles;
 	private TypedArray navMenuIcons;
 
+	private String cobaaja;
+
 	private ArrayList<NavDrawerItem> navDrawerItems;
 	private NavDrawerListAdapter adapter;
 
